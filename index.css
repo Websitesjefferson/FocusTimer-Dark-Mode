@@ -1,0 +1,111 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+:root{
+    font-size: 62.5%;
+}
+body{
+    display: grid;
+    min-height: 100vh;
+}
+.bgpreto{
+    background-color: black;
+}
+.hide{
+    position: absolute;
+    display: none;
+    
+}
+#main{
+    align-self: end;
+    justify-self: end;
+    padding: 0 4rem 3.2rem 0;
+}
+#main button{
+   
+    border: none;
+    position: absolute;
+    right: 5%;
+    background-color: transparent;
+    
+}
+.sol{
+    visibility: hidden;
+}
+.bgcolor {
+    color: #ffffff;
+    
+    
+}
+.svgcolo path{
+    fill: #ffffff;
+    
+}
+.bgcolo{
+    background-color: rgb(80, 78, 78);
+}
+
+
+
+
+header{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+
+    
+}
+
+header .col-1{
+   
+    text-align: center;
+    align-self: center;
+    margin-bottom: 4.8rem;
+    margin-top: 5rem;
+}
+
+.col-1 span{
+    
+    font-size: clamp(7rem, 9rem + 1.5vw, 12.8rem) ;
+}
+.col-1 button{
+    padding-inline: clamp(0.5rem, 0.7rem + 10vw, 1.5rem);
+}
+
+.col-1 button {
+   
+    background-color: transparent;
+    border: none;
+    transition: 300ms;
+    
+}
+.col-1 button svg path:hover{
+    fill: #02799D;
+}
+
+header .col-2{
+    text-align: center;
+    align-self: center;
+    
+}
+.col-2 button{
+    border-radius: 2.4rem;
+    border: none;
+    margin: 2.2rem;
+    width: clamp(1rem, 7rem + 10vw, 13.8rem);
+    height: clamp(1rem, 15rem + 10vw, 15.2rem);
+    transition: 300ms;
+}
+button input{
+    margin-top: 2rem;
+    width: 10rem;
+   
+
+}
+
+.col-2 button:hover{
+    background-color: #02799D; 
+    
+}
